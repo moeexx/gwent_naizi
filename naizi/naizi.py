@@ -51,41 +51,6 @@ if os.path.exists('data.json'):
 
             is_game = input('# 是否反开始反和谐游戏(y/n)：')
             if is_game == 'y':
-                is_text = input('# 是否反和谐文字(y/n)：')
-                if is_text == 'y':
-                    print()
-                    print('# 开始反和谐文本')
-                    data_definitions = Gwent + '\\Gwent_Data\\StreamingAssets\\data_definitions'
-                    print(data_definitions)
-
-                    print('备份 data_definitions 为 data_definitions1')
-                    shutil.copy(data_definitions, data_definitions + '1')
-
-                    print('# 解压 data_definitions')
-                    data_zip = zipfile.ZipFile(data_definitions, 'a')
-                    data_zip.extractall("./data_definitions")
-                    data_zip.close()
-                    d = open('data_definitions\\Localization\\zh-cn.csv', encoding='utf-8')
-                    zh_cn = d.read()
-                    d.close()
-
-                    print('# 开始替换 zh-cn.csv 文字内容')
-                    for t in text:
-                        zh_cn = zh_cn.replace(t['River_crab'], t['Against'])
-                    # 写入文件
-                    with open('data_definitions\\Localization\\zh-cn.csv', 'w', encoding='utf-8') as f:
-                        f.write(zh_cn)
-                        f.close()
-                    print('# 压缩 data_definitions')
-                    make_zip('./data_definitions', 'data_definitions.zip')
-
-                    print('# 移除临时文件')
-                    shutil.rmtree('./data_definitions')
-
-                    print('# 替换 data_definitions')
-                    shutil.move('./data_definitions.zip', './data_definitions')
-                    shutil.move('./data_definitions', data_definitions)
-
                 # 反和谐游戏
                 print()
                 print('开始反和谐游戏')
@@ -110,10 +75,49 @@ if os.path.exists('data.json'):
                     shutil.copytree(Gwent_CN + path['Gwent_CN'], G)
 
                 print()
-                input('#反和谐成功，按任意键关闭：')
-
+                input('#反和谐游戏成功，按任意键继续：')
             else:
-                input('# 反和谐终止，按任意键关闭：')
+                input('# 反和谐游戏终止，按任意键继续：')
+            is_text = input('# 是否反和谐文字(y/n)：')
+            if is_text == 'y':
+                print()
+                print('# 开始反和谐文本')
+                data_definitions = Gwent + '\\Gwent_Data\\StreamingAssets\\data_definitions'
+                print(data_definitions)
+
+                print('备份 data_definitions 为 data_definitions1')
+                shutil.copy(data_definitions, data_definitions + '1')
+
+                print('# 解压 data_definitions')
+                data_zip = zipfile.ZipFile(data_definitions, 'a')
+                data_zip.extractall("./data_definitions")
+                data_zip.close()
+                d = open('data_definitions\\Localization\\zh-cn.csv', encoding='utf-8')
+                zh_cn = d.read()
+                d.close()
+
+                print('# 开始替换 zh-cn.csv 文字内容')
+                for t in text:
+                    zh_cn = zh_cn.replace(t['River_crab'], t['Against'])
+                # 写入文件
+                with open('data_definitions\\Localization\\zh-cn.csv', 'w', encoding='utf-8') as f:
+                    f.write(zh_cn)
+                    f.close()
+                print('# 压缩 data_definitions')
+                make_zip('./data_definitions', 'data_definitions.zip')
+
+                print('# 移除临时文件')
+                shutil.rmtree('./data_definitions')
+
+                print('# 替换 data_definitions')
+                shutil.move('./data_definitions.zip', './data_definitions')
+                shutil.move('./data_definitions', data_definitions)
+
+                print()
+                input('#反和谐文字成功，按任意键继续：')
+            else:
+                print()
+                input('#反和谐文字终止，按任意键继续：')
         else:
             print('# 国际服安装地址错误')
             input('# 按任意键关闭：')
