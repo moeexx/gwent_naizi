@@ -1,0 +1,124 @@
+{
+  "path": {
+    "Gwent_CN": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GWENT The Witcher Card Game",
+    "Gwent": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GWENT The Witcher Card Game"
+  },
+  "Replace_file": [
+    {
+      "Gwent_CN": "\\GameAssembly.dll",
+      "Gwent": "\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\globalgamemanagers",
+      "Gwent": "\\Gwent_Data\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\globalgamemanagers.assets",
+      "Gwent": "\\Gwent_Data\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\level0",
+      "Gwent": "\\Gwent_Data\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\resources.assets",
+      "Gwent": "\\Gwent_Data\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\resources.assets.resS",
+      "Gwent": "\\Gwent_Data\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\sharedassets0.assets",
+      "Gwent": "\\Gwent_Data\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\sharedassets0.assets.resS",
+      "Gwent": "\\Gwent_Data\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\il2cpp_data\\Metadata\\global-metadata.dat",
+      "Gwent": "\\Gwent_Data\\il2cpp_data\\Metadata\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets.json",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\wbl",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\wbl.manifest",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\dependencies\\shared\\mainmenu",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\dependencies\\shared\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\thumbnails_cardbacks",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\thumbnails_cardbacks",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+    }
+  ],
+  "Replace_folder": [
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\factions\\scenes\\gaea",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\factions\\scenes\\gaea"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\textures\\gaea",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\textures\\gaea"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\vanity\\scenes\\gaea",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\vanity\\scenes\\gaea"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\cardbacks\\textures\\premium",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\cardbacks\\textures\\premium"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\avatars\\standard",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\avatars\\standard"
+    }
+  ],
+  "text": [
+    {
+      "River_crab": "重伤",
+      "Against": "流血"
+    },
+    {
+      "River_crab": "水手",
+      "Against": "海盗"
+    },
+    {
+      "River_crab": "呓语",
+      "Against": "邪教徒"
+    },
+    {
+      "River_crab": "战狂",
+      "Against": "嗜血"
+    },
+    {
+      "River_crab": "不忠",
+      "Against": "间谍"
+    },
+    {
+      "River_crab": "遮蔽",
+      "Against": "帷幕"
+    },
+    {
+      "River_crab": "征战",
+      "Against": "劫掠"
+    },
+    {
+      "River_crab": "共谋",
+      "Against": "阴谋"
+    }
+  ]
+}
