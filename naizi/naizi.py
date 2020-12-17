@@ -2,6 +2,7 @@ import json
 import os
 import shutil
 import zipfile
+import getpass
 
 print('# by Avalon(moexx)')
 print('# 需要使用 gog2.0 同时安装 国服 和 国际服，每次反和谐前，请先验证修复国际服')
@@ -10,6 +11,7 @@ print('# 补丁使用说明：https://www.iyingdi.com/web/bbspost/detail/2316619
 print()
 
 
+# 压缩
 def make_zip(source_dir, output_filename):
     zipf = zipfile.ZipFile(output_filename, 'w')
     pre_len = len(os.path.dirname(source_dir))
@@ -19,6 +21,38 @@ def make_zip(source_dir, output_filename):
             rename = datafile[pre_len:].strip(os.path.sep)
             zipf.write(datafile, rename.replace("data_definitions\\", ""))
     zipf.close()
+
+
+# 反和谐文本
+def data_definitions(url):
+    print(url)
+    print('备份 data_definitions 为 data_definitions1')
+    shutil.copy(url, url + '1')
+
+    print('# 解压 data_definitions')
+    data_zip = zipfile.ZipFile(url, 'a')
+    data_zip.extractall("./data_definitions")
+    data_zip.close()
+    d = open('data_definitions\\Localization\\zh-cn.csv', encoding='utf-8')
+    zh_cn = d.read()
+    d.close()
+
+    print('# 开始替换 zh-cn.csv 文字内容')
+    for t in text:
+        zh_cn = zh_cn.replace(t['River_crab'], t['Against'])
+    # 写入文件
+    with open('data_definitions\\Localization\\zh-cn.csv', 'w', encoding='utf-8') as f:
+        f.write(zh_cn)
+        f.close()
+    print('# 压缩 data_definitions')
+    make_zip('./data_definitions', 'data_definitions.zip')
+
+    print('# 移除临时文件')
+    shutil.rmtree('./data_definitions')
+
+    print('# 替换 data_definitions')
+    shutil.move('./data_definitions.zip', './data_definitions')
+    shutil.move('./data_definitions', url)
 
 
 if os.path.exists('data.json'):
@@ -37,6 +71,7 @@ if os.path.exists('data.json'):
         file = data['Replace_file']
         folder = data['Replace_folder']
         text = data['text']
+        user_definitions = 'C:\\Users\\' + getpass.getuser() + '\\AppData\\LocalLow\\CDProjektRED\\Gwent\\Data\\data_definitions'
     except BaseException as e:
         print("# data.json 中key出错")
         print("# 错误原因：", e)
@@ -80,38 +115,14 @@ if os.path.exists('data.json'):
                 input('# 反和谐游戏终止，按任意键继续：')
             is_text = input('# 是否反和谐文字(y/n)：')
             if is_text == 'y':
+                if os.path.exists(user_definitions):
+                    print()
+                    print('# 开始反和谐热更后的文本')
+                    data_definitions(user_definitions)
+
                 print()
-                print('# 开始反和谐文本')
-                data_definitions = Gwent + '\\Gwent_Data\\StreamingAssets\\data_definitions'
-                print(data_definitions)
-
-                print('备份 data_definitions 为 data_definitions1')
-                shutil.copy(data_definitions, data_definitions + '1')
-
-                print('# 解压 data_definitions')
-                data_zip = zipfile.ZipFile(data_definitions, 'a')
-                data_zip.extractall("./data_definitions")
-                data_zip.close()
-                d = open('data_definitions\\Localization\\zh-cn.csv', encoding='utf-8')
-                zh_cn = d.read()
-                d.close()
-
-                print('# 开始替换 zh-cn.csv 文字内容')
-                for t in text:
-                    zh_cn = zh_cn.replace(t['River_crab'], t['Against'])
-                # 写入文件
-                with open('data_definitions\\Localization\\zh-cn.csv', 'w', encoding='utf-8') as f:
-                    f.write(zh_cn)
-                    f.close()
-                print('# 压缩 data_definitions')
-                make_zip('./data_definitions', 'data_definitions.zip')
-
-                print('# 移除临时文件')
-                shutil.rmtree('./data_definitions')
-
-                print('# 替换 data_definitions')
-                shutil.move('./data_definitions.zip', './data_definitions')
-                shutil.move('./data_definitions', data_definitions)
+                print('# 开始反和谐本体文本')
+                data_definitions(Gwent + '\\Gwent_Data\\StreamingAssets\\data_definitions')
 
                 print()
                 input('#反和谐文字成功，按任意键继续：')

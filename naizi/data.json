@@ -1,7 +1,7 @@
 {
   "path": {
-    "Gwent_CN": "C:\\Program Files (x86)\\GOG Galaxy\\Games\\Gwent_CN",
-    "Gwent": "C:\\Program Files (x86)\\GOG Galaxy\\Games\\Gwent"
+    "Gwent_CN": "C:\\Users\\avalon\\Desktop\\Gwent",
+    "Gwent": "C:\\Users\\avalon\\Downloads\\Gwent"
   },
   "Replace_file": [
     {
@@ -62,6 +62,62 @@
     },
     {
       "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\thumbnails_cardbacks",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotmon",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotmon",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotneu",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotneu",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotnil",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotnil",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotnor",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotnor",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotsco",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotsco",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotske",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotske",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotsyn",
+      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+    },
+    {
+      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotsyn",
       "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
     }
   ],
