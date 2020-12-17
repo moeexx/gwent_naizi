@@ -115,10 +115,10 @@ if os.path.exists('data.json'):
                 input('# 反和谐游戏终止，按任意键继续：')
             is_text = input('# 是否反和谐文字(y/n)：')
             if is_text == 'y':
-                if os.path.exists(user_definitions):
-                    print()
-                    print('# 开始反和谐热更后的文本')
-                    data_definitions(user_definitions)
+#                 if os.path.exists(user_definitions):
+#                     print()
+#                     print('# 开始反和谐热更后的文本')
+#                     data_definitions(user_definitions)
 
                 print()
                 print('# 开始反和谐本体文本')
