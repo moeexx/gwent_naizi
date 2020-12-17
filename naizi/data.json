@@ -1,180 +1,244 @@
 {
-  "path": {
-    "Gwent_CN": "C:\\Users\\avalon\\Desktop\\Gwent",
-    "Gwent": "C:\\Users\\avalon\\Downloads\\Gwent"
-  },
-  "Replace_file": [
-    {
-      "Gwent_CN": "\\GameAssembly.dll",
-      "Gwent": "\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\globalgamemanagers",
-      "Gwent": "\\Gwent_Data\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\globalgamemanagers.assets",
-      "Gwent": "\\Gwent_Data\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\level0",
-      "Gwent": "\\Gwent_Data\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\resources.assets",
-      "Gwent": "\\Gwent_Data\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\resources.assets.resS",
-      "Gwent": "\\Gwent_Data\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\sharedassets0.assets",
-      "Gwent": "\\Gwent_Data\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\sharedassets0.assets.resS",
-      "Gwent": "\\Gwent_Data\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\il2cpp_data\\Metadata\\global-metadata.dat",
-      "Gwent": "\\Gwent_Data\\il2cpp_data\\Metadata\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets.json",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\wbl",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\wbl.manifest",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\dependencies\\shared\\mainmenu",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\dependencies\\shared\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\thumbnails_cardbacks",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\thumbnails_cardbacks",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotmon",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotmon",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotneu",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotneu",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotnil",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotnil",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotnor",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotnor",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotsco",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotsco",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotske",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotske",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotsyn",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotsyn",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
-    }
-  ],
-  "Replace_folder": [
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\factions\\scenes\\gaea",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\factions\\scenes\\gaea"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\textures\\gaea",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\textures\\gaea"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\vanity\\scenes\\gaea",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\vanity\\scenes\\gaea"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\cardbacks\\textures\\premium",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\cardbacks\\textures\\premium"
-    },
-    {
-      "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\avatars\\standard",
-      "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\avatars\\standard"
-    }
-  ],
-  "text": [
-    {
-      "River_crab": "重伤",
-      "Against": "流血"
-    },
-    {
-      "River_crab": "水手",
-      "Against": "海盗"
-    },
-    {
-      "River_crab": "呓语",
-      "Against": "邪教徒"
-    },
-    {
-      "River_crab": "战狂",
-      "Against": "嗜血"
-    },
-    {
-      "River_crab": "不忠",
-      "Against": "间谍"
-    },
-    {
-      "River_crab": "遮蔽",
-      "Against": "帷幕"
-    },
-    {
-      "River_crab": "征战",
-      "Against": "劫掠"
-    },
-    {
-      "River_crab": "共谋",
-      "Against": "阴谋"
-    }
-  ]
+    "path": {
+        "Gwent_CN": "C:\\Users\\avalon\\Desktop\\Gwent", 
+        "Gwent": "C:\\Users\\avalon\\Downloads\\Gwent"
+    }, 
+    "Replace_file": [
+        {
+            "Gwent_CN": "\\GameAssembly.dll", 
+            "Gwent": "\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\globalgamemanagers", 
+            "Gwent": "\\Gwent_Data\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\globalgamemanagers.assets", 
+            "Gwent": "\\Gwent_Data\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\level0", 
+            "Gwent": "\\Gwent_Data\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\resources.assets", 
+            "Gwent": "\\Gwent_Data\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\resources.assets.resS", 
+            "Gwent": "\\Gwent_Data\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\sharedassets0.assets", 
+            "Gwent": "\\Gwent_Data\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\sharedassets0.assets.resS", 
+            "Gwent": "\\Gwent_Data\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\il2cpp_data\\Metadata\\global-metadata.dat", 
+            "Gwent": "\\Gwent_Data\\il2cpp_data\\Metadata\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets.json", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\wbl", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\wbl.manifest", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\dependencies\\shared\\mainmenu", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\dependencies\\shared\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\thumbnails_cardbacks", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\thumbnails_cardbacks", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotmon", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotmon", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotneu", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotneu", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotnil", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotnil", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotnor", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotnor", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotsco", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotsco", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotske", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotske", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\cardslotsyn", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\high\\"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\cardslotsyn", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\gui\\spriteatlases\\medium\\"
+        }
+    ], 
+    "Replace_folder": [
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\factions\\scenes\\gaea", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\factions\\scenes\\gaea"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\textures\\gaea", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\textures\\gaea"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\vanity\\scenes\\gaea", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\boards\\vanity\\scenes\\gaea"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\cardbacks\\textures\\premium", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\cardbacks\\textures\\premium"
+        }, 
+        {
+            "Gwent_CN": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\avatars\\standard", 
+            "Gwent": "\\Gwent_Data\\StreamingAssets\\bundledassets\\vanityassets\\avatars\\standard"
+        }
+    ], 
+    "text": [
+        {
+            "River_crab": "重伤", 
+            "Against": "流血"
+        }, 
+        {
+            "River_crab": "水手", 
+            "Against": "海盗"
+        }, 
+        {
+            "River_crab": "呓语", 
+            "Against": "邪教徒"
+        }, 
+        {
+            "River_crab": "战狂", 
+            "Against": "嗜血"
+        }, 
+        {
+            "River_crab": "不忠", 
+            "Against": "间谍"
+        }, 
+        {
+            "River_crab": "征战", 
+            "Against": "劫掠"
+        }, 
+        {
+            "River_crab": "共谋", 
+            "Against": "阴谋"
+        }, 
+        {
+            "River_crab": "密使", 
+            "Against": "间谍"
+        }, 
+        {
+            "River_crab": "呓语", 
+            "Against": "邪教徒"
+        }, 
+        {
+            "River_crab": "威吓", 
+            "Against": "恐吓"
+        }, 
+        {
+            "River_crab": "一只气灵三个愿望", 
+            "Against": "一只迪精三个愿望"
+        }, 
+        {
+            "River_crab": "献礼", 
+            "Against": "献祭"
+        }, 
+        {
+            "River_crab": "诅咒恶兽", 
+            "Against": "吸血妖鸟"
+        }, 
+        {
+            "River_crab": "渴血鸟怪", 
+            "Against": "吸血妖鸟"
+        }, 
+        {
+            "River_crab": "尖啸女妖", 
+            "Against": "吸血女妖"
+        }, 
+        {
+            "River_crab": "买通", 
+            "Against": "贿赂"
+        }, 
+        {
+            "River_crab": "扼喉者之毒", 
+            "Against": "吊死鬼之毒"
+        }, 
+        {
+            "River_crab": "暗袭", 
+            "Against": "暗杀"
+        }, 
+        {
+            "River_crab": "潜行者", 
+            "Against": "刺客"
+        }, 
+        {
+            "River_crab": "帝国投石机", 
+            "Against": "帝国投尸机"
+        }, 
+        {
+            "River_crab": "赤红男爵", 
+            "Against": "血腥男爵"
+        }, 
+        {
+            "River_crab": "异婴", 
+            "Against": "尸婴"
+        }, 
+        {
+            "River_crab": "背亲者恩约夫", 
+            "Against": "弑亲者恩约夫"
+        }, 
+        {
+            "River_crab": "恐狼勇士", 
+            "Against": "“恐怖海狼”劫掠者"
+        }
+    ]
 }
